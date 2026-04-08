@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="animated-bg">
+        <div class="gradient-1"></div>
+        <div class="gradient-2"></div>
+        <div class="gradient-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🎂 Birthday Wishes</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#message" class="nav-link">Message</a></li>
+                <li><a href="#photos" class="nav-link">Photos</a></li>
+                <li><a href="#cake" class="nav-link">Cake</a></li>
+                <li><a href="#wishes" class="nav-link">Wishes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-balloons">
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+            <div class="balloon">🎈</div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Happy Birthday! 🎉</h1>
+                <p class="hero-description">Wishing you a day filled with joy, laughter, and all your favorite things!</p>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+        </div>
+
+        <canvas id="heroCanvas"></canvas>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section id="message" class="message-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>A Special Message</h2>
+                <p>From the heart</p>
+            </div>
+
+            <div class="message-card">
+                <div class="message-content">
+                    <p class="message-opening">My Kikiiiiii,</p>
+
+                    <p>On this special day, I want to celebrate YOU! Your smile lights up every room, your laughter is contagious, and your love means the world to me.</p>
+
+                    <div class="highlight-section">
+                        <p><strong>You deserve all the happiness in the world today and every day!</strong></p>
+                    </div>
+
+                    <p>May your birthday be filled with amazing memories, surrounded by people who love you, and all the cake you can eat! 🎂</p>
+
+                    <p>Here's to another year of adventures, growth, and joy. You are truly one of a kind!</p>
+
+                    <p class="message-closing">Happy Birthday with all my love,<br><span>Your Friend</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="photos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Memorable Moments</h2>
+                <p>Cherished memories together</p>
+            </div>
+
+            <div class="photos-grid">
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-04-08 at 9.45.37 PM.jpeg" alt="Memory 1" class="photo-img">
+                    <div class="photo-caption">A beautiful memory</div>
+                </img>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-04-08 at 9.45.38 PM (1).jpeg" alt="Memory 2" class="photo-img">
+                    <div class="photo-caption">Making memories</div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-04-08 at 9.45.38 PM.jpeg" alt="Memory 3" class="photo-img">
+                    <div class="photo-caption">Best times ever</div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-04-08 at 9.45.39 PM (1).jpeg" alt="Memory 4" class="photo-img">
+                    <div class="photo-caption">Unforgettable moments</div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-04-08 at 9.45.39 PM (2).jpeg" alt="Memory 5" class="photo-img">
+                    <div class="photo-caption">Smiles and laughter</div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-04-08 at 9.45.39 PM.jpeg" alt="Memory 6" class="photo-img">
+                    <div class="photo-caption">Forever friends</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cake Section -->
+    <section id="cake" class="cake-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Time for Cake! 🎂</h2>
+                <p>Make a wish and blow out the candles</p>
+            </div>
+
+            <div class="cake-container">
+                <div class="cake" id="cakeTrigger">
+                    <div class="plate"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-top"></div>
+                    <div class="candles">
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cake-note">Tap the cake to blow out the candles</div>
+
+                <div id="celebration" class="celebration-message">
+                    <h3>🎉 Happy Birthday! 🎉</h3>
+                    <p>Your wish will come true! ✨</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section id="wishes" class="wishes-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Birthday Wishes</h2>
+                <p>Messages from friends and family</p>
+            </div>
+
+            <div class="wishes-grid">
+                <div class="wish-card">
+                    <div class="wish-avatar">👨‍💻</div>
+                    <div class="wish-content">
+                        <h4>From Your Best Friend</h4>
+                        <p>"Happy Birthday! May your year be filled with as much joy as you bring to everyone around you!"</p>
+                    </div>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-avatar">👩‍🎨</div>
+                    <div class="wish-content">
+                        <h4>From Your Family</h4>
+                        <p>"Wishing you a birthday as amazing as you are! Love you lots!"</p>
+                    </div>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-avatar">🎨</div>
+                    <div class="wish-content">
+                        <h4>From Your Colleague</h4>
+                        <p>"Happy Birthday! Hope this year brings you all the success you deserve!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        // Mobile menu toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Photo upload functionality
+        document.querySelectorAll('.photo-input').forEach(input => {
+            input.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const placeholder = input.parentElement;
+                        placeholder.innerHTML = `<img src="${e.target.result}" alt="Uploaded photo" class="uploaded-photo">`;
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+
+        // Hero Canvas - Confetti
+        const canvas = document.getElementById('heroCanvas');
+        if (canvas) {
+            const ctx = canvas.getContext('2d');
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+
+            const confetti = [];
+            const colors = ['#ff6b9d', '#4ecdc4', '#45b7d1', '#f9ca24', '#f0932b', '#eb4d4b'];
+
+            class Confetti {
+                constructor() {
+                    this.x = Math.random() * canvas.width;
+                    this.y = Math.random() * canvas.height - canvas.height;
+                    this.size = Math.random() * 8 + 2;
+                    this.speedX = Math.random() * 4 - 2;
+                    this.speedY = Math.random() * 3 + 1;
+                    this.color = colors[Math.floor(Math.random() * colors.length)];
+                    this.rotation = Math.random() * 360;
+                    this.rotationSpeed = Math.random() * 10 - 5;
+                }
+
+                draw() {
+                    ctx.save();
+                    ctx.translate(this.x, this.y);
+                    ctx.rotate(this.rotation * Math.PI / 180);
+                    ctx.fillStyle = this.color;
+                    ctx.fillRect(-this.size/2, -this.size/2, this.size, this.size);
+                    ctx.restore();
+                }
+
+                update() {
+                    this.x += this.speedX;
+                    this.y += this.speedY;
+                    this.rotation += this.rotationSpeed;
+
+                    if (this.y > canvas.height) {
+                        this.y = -this.size;
+                        this.x = Math.random() * canvas.width;
+                    }
+                }
+            }
+
+            for (let i = 0; i < 100; i++) {
+                confetti.push(new Confetti());
+            }
+
+            function animateConfetti() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                confetti.forEach(c => {
+                    c.update();
+                    c.draw();
+                });
+                requestAnimationFrame(animateConfetti);
+            }
+
+            animateConfetti();
+            window.addEventListener('resize', () => {
+                canvas.width = canvas.offsetWidth;
+                canvas.height = canvas.offsetHeight;
+            });
+        }
+
+        // Scroll animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray('.photo-card').forEach(card => {
+            gsap.fromTo(card,
+                { opacity: 0, y: 50 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.8,
+                    scrollTrigger: {
+                        trigger: card,
+                        start: 'top 80%',
+                    }
+                }
+            );
+        });
+
+        // Cake animation
+        gsap.fromTo('.cake',
+            { scale: 0.8, opacity: 0 },
+            {
+                scale: 1,
+                opacity: 1,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: '.cake-section',
+                    start: 'top 80%',
+                }
+            }
+        );
+
+        // Cake blow-out interaction
+        const cakeTrigger = document.getElementById('cakeTrigger');
+        const cakeNote = document.querySelector('.cake-note');
+        let cakeBlown = false;
+
+        cakeTrigger.addEventListener('click', function() {
+            if (cakeBlown) return;
+            cakeBlown = true;
+
+            const flames = document.querySelectorAll('.flame');
+            const celebration = document.getElementById('celebration');
+
+            // Cake shake and sparkle effect before blow-out
+            gsap.fromTo(cakeTrigger,
+                { scale: 1, rotation: 0 },
+                { scale: 1.04, rotation: -2, duration: 0.2, yoyo: true, repeat: 1, ease: 'power1.inOut' }
+            );
+
+            if (cakeNote) {
+                cakeNote.textContent = 'Wish made! ✨';
+            }
+
+            // Animate flames out
+            gsap.to(flames, {
+                scale: 0,
+                opacity: 0,
+                duration: 0.6,
+                stagger: 0.1,
+                onComplete: () => {
+                    // Show celebration
+                    celebration.classList.add('show');
+                    gsap.fromTo(celebration,
+                        { opacity: 0, scale: 0.8, y: 30 },
+                        { opacity: 1, scale: 1, y: 0, duration: 0.8, ease: 'back.out' }
+                    );
+
+                    // Trigger confetti burst
+                    createConfettiBurst();
+                }
+            });
+        });
+
+        function createConfettiBurst() {
+            const burstConfetti = [];
+            for (let i = 0; i < 50; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'burst-confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.backgroundColor = ['#ff6b9d', '#4ecdc4', '#45b7d1', '#f9ca24', '#f0932b', '#eb4d4b'][Math.floor(Math.random() * 6)];
+                confetti.style.animationDelay = Math.random() * 2 + 's';
+                document.body.appendChild(confetti);
+
+                setTimeout(() => {
+                    confetti.remove();
+                }, 3000);
+            }
+        }
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
